@@ -1,0 +1,78 @@
+body{font-family: 'Raleway', sans-serif !important;}
+h1{font-size: 60px}
+.contain-width{max-width: 1263px;margin: 0 auto;}
+.menu ul li a{font-family: 'Poppins', sans-serif !important;font-size: 18px;color: #AE862E;padding: 16px 15px}
+div#collapsibleNavbar {
+    justify-content: flex-end;
+}
+.menu {
+    padding: 0px;
+    height: 100%;
+    background: transparent !important;
+}
+
+.menu ul li a:hover{color: #AE862E}
+li.nav-item.last-menu a.nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    border-radius: 6px;
+    border: 1px solid #AE862E;
+}
+.header .contain-width {
+    padding: 20px 0;
+}
+
+.form-control:focus{outline: none;box-shadow: none;}
+
+.footer {
+    padding: 40px 0;
+    background: #000;
+}
+
+h4.foot-title-col {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
+}
+
+ul.company-list, ul.fs-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.fs-list {
+    display: flex;
+    gap: 10px;
+}
+
+h3.foot-head-title {
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--1, linear-gradient(174deg, #F7EF89 0%, #AE862E 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul.company-list li a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
